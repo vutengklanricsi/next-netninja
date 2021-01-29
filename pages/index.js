@@ -1,13 +1,19 @@
-
+import styles from "../styles/Home.module.css";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
-      <h1>HomePage</h1>
-      <p>dormire cem cwe fjwefnlfklwfennwfeklwefő wel</p>
-      <p>dormire cem cwe fjwefnlfklwfennwfeklwefő wel</p>
-      <Link href="./ninjas"><a>See Ninja Listing</a></Link>
+      <h1 className={styles.title}>HomePage</h1>
+      <p className={styles.text}>
+        dormire cem cwe fjwefnlfklwfennwfeklwefő wel
+      </p>
+      <p className={styles.text}>
+        dormire cem cwe fjwefnlfklwfennwfeklwefő wel
+      </p>
+      <Link href="./ninjas">
+        <a className={styles.btn}>See Ninja Listing</a>
+      </Link>
     </div>
   );
 }
