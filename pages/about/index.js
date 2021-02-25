@@ -10,8 +10,8 @@ export default function About() {
       </Head>
       <div>
         <h1>About</h1>
-        <p>fwefnlwefnlwefnklwef-,cle welefnlwf</p>
-        <p>fwefnlwefnlwefnklwef-,cle welefnlwf</p>
+        <p>Strong Ninjas</p>
+        <p>Forbidden shadow</p>
       </div>
     </>
   );

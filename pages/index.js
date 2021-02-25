@@ -12,10 +12,10 @@ export default function Home() {
       <div>
         <h1 className={styles.title}>HomePage</h1>
         <p className={styles.text}>
-          dormire cem cwe fjwefnlfklwfennwfeklwefő wel
+          Zed School
         </p>
         <p className={styles.text}>
-          dormire cem cwe fjwefnlfklwfennwfeklwefő wel
+          Lot of ninjas
         </p>
         <Link href="/ninjas">
           <a className={styles.btn}>See Ninja Listing</a>
